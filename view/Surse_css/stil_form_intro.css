@@ -1,0 +1,20 @@
+#input_intro{
+	width: 40%;
+	box-sizing: border-box;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	font-size: 1vw;
+	background-color: white;
+	padding: 1% 1%;
+	transition: width 0.4s ease-in-out;
+}
+#input_intro:focus{
+	width: 80%;
+}
+.eticheta_formular{
+	font-size: 1.3vw;
+	font-weight: normal;
+}
+.eticheta_clase{
+	margin-right: 2%;
+}

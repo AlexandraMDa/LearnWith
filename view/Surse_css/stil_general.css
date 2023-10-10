@@ -1,0 +1,80 @@
+			/*HEADER LA PAGINI*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+}
+h1{
+	overflow: hidden;
+}
+#head{
+	text-align: left;
+	margin-left: 2%;
+	font-size: 4vw;
+	font-family: Edwardian Script ITC;
+	width: 100%;
+	height: 10%;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}	
+a{
+	text-decoration: none;
+}
+.close{
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	font-size: 3vw;
+	font-weight: bold;
+	color: white;
+}
+.close:hover{
+	font-size: 4vw;
+}
+.eroare_style{
+	color: red;
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+.img_panouri{
+	width: 7%;
+	position: fixed;
+	top: 1%;
+	right: 2%;
+}
+.text_img_cont{
+	color: black;
+	font-family: Arial;
+	font-size: 0.7vw;
+	position: fixed;
+	top: 12%;
+	right: 2.5%;
+	width: 6%;
+	text-align: center;
+	display: none;
+}
+.img_send_img{
+	opacity: 1;
+	z-index: 1;
+}
+.img_send_img:hover{
+	opacity: 0.5;
+}
+.img_send_img:hover .text_img_cont{
+	display: inline-block;
+}
+.general_options{
+	background-color: rgb(241,241,241);
+	padding: 2%;
+	border: #ccc 2px solid;
+	border-radius: 20px;
+}
+#icon_imag{
+	width: 2%;
+	height: auto;
+}
+.thead-dark{
+	background-color:#444445;
+	color:white;
+}

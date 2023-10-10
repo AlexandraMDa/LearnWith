@@ -1,0 +1,61 @@
+.body_form{
+	background-image: url('../Surse_imag/fundal.jpg');
+}
+.log_in_content{
+	margin-top: 3%;
+	margin-left: 5%;
+	background-color: white;
+	width: 85%;
+	padding-left: 2%;
+}
+.log_in_modal{
+	height: 59%;
+	margin-top: 8%;
+	background-color: rgb(91,49,119);
+	position: fixed;
+	z-index: 1;
+	left: 25%;
+	display: inline-block;
+	width: 45%;
+	overflow: hidden;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea{
+	width: 95%;
+	padding: 2%;
+	margin: 1%;
+	display: inline-block;
+	border: none;
+	background-color: rgb(235,235,235);
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, input[type=tel]:focus, textarea:focus{
+	background-color: rgb(210,210,210);
+	outline: none;
+}
+.content{
+	background-color: white;
+	margin: 3% auto 3% auto;
+	width: 80%;
+	padding-left: 2%;
+}
+hr{
+	border: rgb(223,223,223) solid 3px;
+	margin-bottom: 3%;
+}
+#reset_btn{
+	background-color: red;
+}
+#reset_btn,#submit_btn{
+	float: left;
+	width: 50%;
+}
+.modal{
+	position: fixed;
+	z-index: 1;
+	left: 20%;
+	top: 2%;
+	display: inline-block;
+	width: 60%;
+	height: 96%;
+	overflow: auto;
+	background-color: #474e5d;    /*AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+}

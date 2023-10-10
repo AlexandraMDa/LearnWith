@@ -1,0 +1,103 @@
+button#log , button#sign{
+	float: left;
+	width: 50%;
+	color: white;
+	margin: 1% 0;
+}
+button#log{
+	background-color: rgb(6,172,48);
+}
+button{
+	background-color: rgb(55,124,193);;
+	color: white;
+	padding: 2% 2%;
+	margin: 2% 0;
+	border-style: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+button:hover{
+	opacity: 1;
+}
+#btn_close{
+	width: auto;
+	font-size: 1.5vw;
+	position: absolute;
+	right: 1px;
+}
+.button_discipline{
+	display: inline-block;
+	border-radius: 5px;
+	width: auto;
+	background-color: RoyalBlue;
+	text-align: center;
+	font-size: 1.3vw;
+	padding: 1% 2%;
+	color: white;
+	border: none;
+	margin-left: 2%;
+	vertical-align: middle;
+}
+.button_ordonare{
+	background-color: rgb(68,227,105); 
+	position: absolute; 
+	left: 60%;
+	top: 32%;
+}
+.button_search{
+	width: 30%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 1.3vw;
+	background-color: white;
+	background-image: url('view/Surse_imag/Optiuni_cont/Optiuni_cont_elev/Note/cauta.png');
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 21%;
+	top: 34%;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+.button_search:focus{
+	background-color: rgb(244,244,244);
+	width: 40%;
+}
+.button_filtru{
+	background-color: rgb(104,47,131);
+	left: 80%;
+	top: 32%;
+}
+.optiune{
+	margin-left: 4%;
+	font-size: 1.2vw;
+	float: left;
+	margin-right: 7%;
+}
+.trim_img{
+	width: 50%;
+	position: absolute;
+	top: 75%;
+}
+.choose_img{
+	position: absolute;
+	top: 25%;
+}
+.button_search_clasa{
+	position: absolute;
+	top: 45%;
+	left: 17%;
+}
+.button_ordonare_clasa{
+	position: absolute;
+	top: 38%;
+	left: 60%;
+}
+.button_filtru_clasa{
+	position: absolute;
+	top: 38%;
+}
+.btn_tabel{
+	width: auto;
+}

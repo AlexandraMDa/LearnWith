@@ -1,0 +1,55 @@
+aside.galerie{
+	opacity: 1;
+	margin-left: 4%;
+	/*padding: 0 0 5% 0;*/
+	border-style: solid;
+	border-color: rgb(197,197,197);
+	border-width: 2px;
+	float: left;
+	width: 27%;
+	height: auto;
+}
+aside.galerie:hover{
+	border-color: grey;
+	width: 29%;
+}
+.img_cont{
+	opacity: 10;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+aside:hover .img_cont{
+	opacity: 0.4;
+}
+aside:hover .mijloc{
+	text-decoration: none;
+	opacity: 1;
+}
+div.mijloc{
+	width: 50%;
+	opacity: 0;
+	transition: .5s ease;
+	position: relative;
+	top: -70px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	text-align: center;
+}
+div.text{
+	background-color: rgb(83,198,192);
+	color: white;
+	font-size: 1.8vw;
+	padding: 15px 15px;
+}
+div.descriere{
+	opacity: 1;
+	padding: 5%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-size: 1vw;
+}

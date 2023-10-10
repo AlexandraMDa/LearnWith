@@ -1,0 +1,387 @@
+			/*HEADER LA PAGINI done in stil_general*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+}
+#head{
+	text-align: left;
+	margin-left: 2%;
+	font-size: 4vw;
+	font-family: Edwardian Script ITC;
+	width: 100%;
+	height: 10%;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+
+		/*CARUSELUL DIN PAGINA DE PORNIRE done in stil_carusel*/
+
+.img_carusel{
+	width: 100%;
+}
+
+			/*GALERIA DE IMAGINI PENTRU LOG IN*/
+			/*done in stil_panou_sign_up */
+aside.galerie{
+	opacity: 1;
+	margin-left: 4%;
+	/*padding: 0 0 5% 0;*/
+	border-style: solid;
+	border-color: rgb(197,197,197);
+	border-width: 2px;
+	float: left;
+	width: 27%;
+	height: auto;
+}
+aside.galerie:hover{
+	border-color: grey;
+	width: 29%;
+}
+.img_cont{
+	opacity: 10;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+div.mijloc{
+	width: 50%;
+	opacity: 0;
+	transition: .5s ease;
+	position: relative;
+	top: -70px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	text-align: center;
+}
+div.descriere{
+	opacity: 1;
+	padding: 5%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-size: 1vw;
+}
+aside:hover .img_cont{
+	opacity: 0.4;
+}
+aside:hover .mijloc{
+	text-decoration: none;
+	opacity: 1;
+}
+div.text{
+	background-color: rgb(83,198,192);
+	color: white;
+	font-size: 1.8vw;
+	padding: 15px 15px;
+}
+	/*--------------------*/
+	/* done in stil_butoane*/
+button#log , button#sign{
+	float: left;
+	width: 50%;
+	color: white;
+	margin: 1% 0;
+}
+
+button#log{
+	background-color: rgb(6,172,48);
+}
+
+			/* FORMULARE */
+				/* done in stil_formulare_de_intrare*/
+.body_form{
+	background-image: url('../Surse_imag/fundal.jpg');
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea{
+	width: 95%;
+	padding: 2%;
+	margin: 1%;
+	display: inline-block;
+	border: none;
+	background-color: rgb(235,235,235);
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, input[type=tel]:focus, textarea:focus{
+	background-color: rgb(210,210,210);
+	outline: none;
+}
+				/*--------------------*/
+	/* done in stil_butoane*/
+button{
+	background-color: rgb(55,124,193);;
+	color: white;
+	padding: 2% 2%;
+	margin: 2% 0;
+	border-style: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+button:hover{
+	opacity: 1;
+}
+#reset_btn{
+	background-color: red;
+}
+#reset_btn,#submit_btn{
+	float: left;
+	width: 50%;
+}
+	/*----------------*/
+	/*done in stil_formulare_de_intrare*/
+.modal{
+	position: fixed;
+	z-index: 1;
+	left: 20%;
+	top: 2%;
+	display: inline-block;
+	width: 60%;
+	height: 96%;
+	overflow: auto;
+	background-color: #474e5d;    /*AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+}
+		/*--------------*/
+		/*done in stil_general.css*/
+a{
+	text-decoration: none;
+}
+.close{
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	font-size: 3vw;
+	font-weight: bold;
+	color: white;
+}
+.close:hover{
+	font-size: 4vw;
+}
+	/*--------------------*/
+	/*done in stil_formulare_de_intrare */
+.content{
+	background-color: white;
+	margin: 3% auto 3% auto;
+	width: 80%;
+	padding-left: 2%;
+}
+hr{
+	border: rgb(223,223,223) solid 3px;
+	margin-bottom: 3%;
+}
+	/*-------------*/
+	/* done in stil_general */
+.eroare_style{
+	color: red;
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+	/*--------------*/
+
+			/* PAGINA DE EROARE */
+#titlu_eroare{
+	font-style: Arial;
+	font-size: 3vw;
+	font-weight: bold;
+	color: rgb(220,0,10);
+}
+#titlu_eroare_2{
+	font-style: Arial;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+			/* PAGINA DE INTRARE IN CONT */
+				/*done in stil_formulare_de_intrare*/
+.log_in_content{
+	margin-top: 3%;
+	margin-left: 5%;
+	background-color: white;
+	width: 85%;
+	padding-left: 2%;
+}
+.log_in_modal{
+	height: 59%;
+	margin-top: 8%;
+	background-color: rgb(91,49,119);
+	position: fixed;
+	z-index: 1;
+	left: 25%;
+	display: inline-block;
+	width: 45%;
+	overflow: hidden;
+}
+	/*--------------*/
+
+			/* PANOURI */
+			/*done in stil_general */
+.img_panouri{
+	width: 7%;
+	position: fixed;
+	top: 1%;
+	right: 2%;
+	z-index: 1;
+}
+.tooltip_menu{
+	/*display: none;*/
+	padding: 1%;
+	border-style: groove;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 2px;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	background-color: rgb(0,128,255);
+	z-index: 1;
+	color: white;
+	font-family: Arial;
+	font-size: 1.2vw;
+}
+.tooltip_menu_h{
+	font-size: 1.4vw;
+}
+.tooltip_link:link{
+	color: white;
+	text-decoration: none;
+}
+.tooltip_link:visited{
+	color: white;
+	text-decoration: none;
+}
+.tooltip_link:hover{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5vw;
+}
+.buton_panou{
+	width: 30%;
+	margin-left: 3%;
+	background-color: rgb(0,0,160);
+}
+.buton_panou:hover .link_panou{
+	font-size: 3vw;
+	text-decoration: none;
+}
+.link_panou:link{
+	color: white;
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.link_panou:visited{
+	color: white;
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.link_panou:hover{
+	color: white;
+	text-decoration: none;
+	font-family: Times New Roman;
+}
+.link_panou:active{
+	color: white;
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}/*
+.img_panouri:hover .tooltip_menu{
+	display: block;
+}*/
+.btn_panou_2{
+	background-color: rgb(0,255,255);
+}
+.link_panou_2:link{
+	color: rgb(64,0,128);
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.link_panou_2:visited{
+	color: rgb(64,0,128);
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.link_panou_2:hover{
+	color: rgb(64,0,128);
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.link_panou_2:active{
+	color: rgb(64,0,128);
+	font-size: 2vw;
+	font-family: Times New Roman;
+	text-decoration: none;
+}
+.buton_panou_2:hover .link_panou_2{
+	font-size: 3vw;
+}
+
+			/*FORMULARE DE INTRODUCERE DATE */
+#input_intro{
+	width: 40%;
+	box-sizing: border-box;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	font-size: 1vw;
+	background-color: white;
+	padding: 1% 1%;
+	transition: width 0.4s ease-in-out;
+}
+#input_intro:focus{
+	width: 80%;
+}
+.img_panou{
+	float: left; 
+	clear: both; 
+	width: 40%;
+	height: auto;
+	/*position: fixed;
+	top: 40%;
+	left: 3%;*/
+}
+.tabel_afis{
+	padding: 2%;
+	width: 100%;
+}
+.tabel_afis th{
+	font-size: 1.4vw;
+	font-family: Arial;
+	font-weight: bold;
+}
+.tabel_afis td{
+	font-size: 1vw;
+	font-family: Times New Roman;
+}
+
+		/*VIZUALIZARE COD*/
+.cod{
+	border: black 4px groove;
+	padding: 3%;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size: 3vw;
+	background-color: rgb(224,224,224);
+}
+aside.galerie_opt_elev{
+	opacity: 1;
+	margin-left: 4%;
+	/*padding: 0 0 5% 0;*/
+	border-style: solid;
+	border-color: rgb(197,197,197);
+	border-width: 2px;
+	float: left;
+	width: 12%;
+	height: auto;
+}
+aside.galerie_opt_elev:hover{
+	border-color: grey;
+	width: 14%;
+}

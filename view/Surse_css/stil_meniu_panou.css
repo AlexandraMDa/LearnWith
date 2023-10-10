@@ -1,0 +1,25 @@
+aside.galerie_opt_elev{
+	opacity: 1;
+	margin-left: 4%;
+	/*padding: 0 0 5% 0;*/
+	border-style: solid;
+	border-color: rgb(197,197,197);
+	border-width: 2px;
+	float: left;
+	width: 12%;
+	height: auto;
+}
+aside.galerie_opt_elev:hover{
+	border-color: grey;
+	width: 14%;
+}
+.img_cont{
+	opacity: 10;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+aside:hover .img_cont{
+	opacity: 0.4;
+}
